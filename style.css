@@ -460,7 +460,7 @@ These are no longer used but kept if we revert or for reference
 }
 
 .section-header .divider {
-    width: 800px;
+    width: 60%;
     height: 2px;
     background-color: var(--dark-gray);
     margin: 0 auto 20px;
