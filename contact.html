@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Apex Builders</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP INFO BAR -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="left-info">
+                <a href="tel:+1123456789"><i class="fas fa-phone-alt"></i> (123) 456-789</a>
+                <a href="mailto:info@apexbuilders.com"><i class="fas fa-envelope"></i> info@apexbuilders.com</a>
+            </div>
+            <div class="right-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-houzz"></i></a>
+                <a href="#"><i class="fab fa-pinterest-p"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- LOGO HEADER -->
+    <header class="main-header">
+        <div class="container">
+            <div class="mobile-menu-toggle" id="mobile-toggle"><i class="fas fa-bars"></i></div>
+            <div class="logo-wrapper">
+                <a href="index.html">
+                    <img src="assets/apex-logo-header.png" alt="Apex Builders - Building & Remodeling"
+                        class="header-logo">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="main-nav">
+        <div class="container">
+            <ul class="nav-list" id="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="index.html#services">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="kitchen.html">Kitchen Remodeling</a></li>
+                        <li><a href="bathroom.html">Bathroom Remodeling</a></li>
+                        <li><a href="basement.html">Basement Remodeling</a></li>
+                        <li><a href="outdoor.html">Outdoor Living Renovations</a></li>
+                    </ul>
+                </li>
+                <li><a href="projects.html">Project Gallery</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html" class="active">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- CONTACT CONTENT SECTION -->
+    <section class="contact-content-section">
+        <div class="container">
+
+            <div class="contact-page-grid">
+                <!-- Left Column: Contact Details -->
+                <div class="contact-info-column">
+                    <!-- Design Showroom -->
+                    <div class="contact-detail-group">
+                        <div class="detail-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Design Showroom:</h3>
+                        </div>
+                        <div class="detail-content">
+                            <p>123 Construction Blvd<br>Dayton, OH 45402</p>
+                            <p class="hours-text">
+                                Mon – Fri: 9:00 a.m. – 4:00 p.m.<br>
+                                Sat: 9:00 a.m. – 12:00 p.m.<br>
+                                <span class="note">*Other times available by appointment</span><br>
+                                Walk-Ins welcome
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="contact-detail-group">
+                        <div class="detail-header">
+                            <i class="fas fa-phone-alt"></i>
+                            <h3>Phone</h3>
+                        </div>
+                        <div class="detail-content">
+                            <p><a href="tel:+1123456789">(123) 456-789</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Form -->
+                <div class="contact-form-column">
+                    <h2>SEND US A MESSAGE</h2>
+                    <form id="contactPageForm" class="contact-page-form compact-form">
+
+                        <div class="form-row-split">
+                            <div class="form-field">
+                                <label>First Name *</label>
+                                <input type="text" required>
+                            </div>
+                            <div class="form-field">
+                                <label>Last Name *</label>
+                                <input type="text" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row-split">
+                            <div class="form-field">
+                                <label>Phone *</label>
+                                <input type="tel" required>
+                            </div>
+                            <div class="form-field">
+                                <label>Email *</label>
+                                <input type="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-field">
+                            <label>Which room do you plan to renovate? *</label>
+                            <select required>
+                                <option value="">Please Select</option>
+                                <option value="Kitchen">Kitchen</option>
+                                <option value="Bathroom">Bathroom</option>
+                                <option value="Basement">Basement</option>
+                                <option value="Outdoor">Outdoor Living</option>
+                                <option value="Whole House">Whole House</option>
+                                <option value="Addition">Addition</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-field">
+                            <label>How soon do you plan to start your remodeling project? *</label>
+                            <select required>
+                                <option value="">Please Select</option>
+                                <option value="Immediately">Immediately</option>
+                                <option value="1-3 Months">1-3 Months</option>
+                                <option value="3-6 Months">3-6 Months</option>
+                                <option value="6-12 Months">6-12 Months</option>
+                                <option value="Just Researching">Just Researching</option>
+                            </select>
+                        </div>
+
+                        <button type="submit" class="submit-btn" style="margin-top: 20px;">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-column footer-logo">
+                    <h3>APEX BUILDERS</h3>
+                    <p class="footer-description">Building dreams into reality. We are a premier construction and
+                        remodeling company dedicated to quality, integrity, and customer satisfaction.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-houzz"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="projects.html">Project Gallery</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="kitchen.html">Kitchen Remodeling</a></li>
+                        <li><a href="bathroom.html">Bathroom Renovations</a></li>
+                        <li><a href="basement.html">Basement Remodeling</a></li>
+                        <li><a href="outdoor.html">Outdoor Living</a></li>
+                        <li><a href="#">Commercial Build</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h4>Contact Us</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Construction Blvd, Dayton, OH 45402</li>
+                        <li><i class="fas fa-phone-alt"></i> (123) 456-789</li>
+                        <li><i class="fas fa-envelope"></i> info@apexbuilders.com</li>
+                        <li><i class="fas fa-clock"></i> Mon - Fri: 8:00 AM - 5:00 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Apex Builders. All Rights Reserved. | Designed by DeepMind.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Additional simple handling for the contact page form if different from main script
+        const contactPageForm = document.getElementById('contactPageForm');
+        if (contactPageForm) {
+            contactPageForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will get back to you shortly.');
+                contactPageForm.reset();
+            });
+        }
+    </script>
+</body>
+
+</html>
